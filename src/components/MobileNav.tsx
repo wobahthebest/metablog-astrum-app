@@ -21,11 +21,13 @@ import { useState } from "react";
 import { useAuth, SignInButton, SignOutButton } from "@clerk/nextjs";
 import { useTheme } from "next-themes";
 import Link from "next/link";
+import { currentUser } from "@clerk/nextjs/server";
 
 function MobileNavbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const { isSignedIn } = useAuth();
   const { theme, setTheme } = useTheme();
+  const user = await currentUser();
 
   return (
     <div className="flex md:hidden items-center space-x-2">
