@@ -16,7 +16,11 @@ const Home = async () => {
         {User ? <CreatePost /> : null}
         <div className="space-y-6">
           {Posts.map((post) => (
-            <PostCard key={post.id} post={post} dbUserId={dbUserId} />
+            <PostCard
+              key={post.id ?? "default-key"}
+              post={post}
+              dbUserId={dbUserId}
+            />
           ))}
         </div>
       </div>

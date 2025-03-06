@@ -31,7 +31,7 @@ const PostCard = ({
   dbUserId,
 }: {
   post: Post;
-  dbUserId: string | null;
+  dbUserId: string | null | undefined;
 }) => {
   const { user } = useUser();
   const [newComment, setNewComment] = useState("");
