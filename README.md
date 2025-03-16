@@ -23,46 +23,44 @@
 
 ![image](https://github.com/user-attachments/assets/b92c737b-3f44-4464-90aa-4d8b11e2f2fd)
 
+
+
+
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
-
 ```bash
 git clone https://github.com/wobahthebest/metablog-astrum-app
 cd metablog-astrum-app
 ```
 
 ### 2️⃣ Install Dependencies
-
 ```bash
 npm install  # or yarn install
 ```
 
 ### 3️⃣ Setup Environment Variables
-
 Create a `.env.local` file and add your Clerk API keys and other necessary credentials:
-
 ```env
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_public_key
 CLERK_SECRET_KEY=your_secret_key
 ```
 
 ### 4️⃣ Run the Development Server
-
 ```bash
 npm run dev  # or yarn dev
 ```
-
 Then open `http://localhost:3000` in your browser.
 
 ## 🎨 Tech Stack
-
 - **Frontend:** Next.js 15, Tailwind CSS, ShadCN
 - **Authentication:** Clerk
 - **Icons:** Lucide Icons
 - **Deployment:** Vercel (recommended)
 
-## 💌 Connect with Me
 
+
+## 💌 Connect with Me
 - GitHub: [yourgithub](https://github.com/wobahthebest)
 - Email: vebdeffrontend@gmail.com
+
